@@ -153,19 +153,23 @@
         85% { opacity: 0; }
         86% { 
             opacity: 1;
-            d: path("M 26.308136,32.638885 A 3.6692474,3.6692474 0 0 1 22.638889,36.308132 3.6692474,3.6692474 0 0 1 18.969642,32.638885 3.6692474,3.6692474 0 0 1 22.638889,28.969638 3.6692474,3.6692474 0 0 1 26.308136,32.638885 Z");
+            transform: scaleY(1);
         }
         89% { 
             opacity: 1;
-            d: path("M 26.308136,32.638885 L 22.638889,32.638885 L 18.969642,32.638885 L 22.638889,32.638885 L 26.308136,32.638885 Z");
+            transform: scaleY(0.1);
         }
         91% {
             opacity: 1;
-            d: path("M 26.308136,32.638885 L 22.638889,32.638885 L 18.969642,32.638885 L 22.638889,32.638885 L 26.308136,32.638885 Z");
+            transform: scaleY(0.1);
         }
-        94% {
+        92% {
             opacity: 1;
-            d: path("M 26.308136,32.638885 A 3.6692474,3.6692474 0 0 1 22.638889,36.308132 3.6692474,3.6692474 0 0 1 18.969642,32.638885 3.6692474,3.6692474 0 0 1 22.638889,28.969638 3.6692474,3.6692474 0 0 1 26.308136,32.638885 Z");
+            transform: scaleY(1);
+        }
+        93% { 
+            opacity: 0; 
+            transform: scaleY(0.1);
         }
         100% { opacity: 0; }
     }
@@ -175,19 +179,23 @@
         85% { opacity: 0; }
         86% {
             opacity: 1;
-            d: path("M 43.947022,32.638885 A 3.6692474,3.6692474 0 0 1 40.277775,36.308132 3.6692474,3.6692474 0 0 1 36.608528,32.638885 3.6692474,3.6692474 0 0 1 40.277775,28.969638 3.6692474,3.6692474 0 0 1 43.947022,32.638885 Z");
+            transform: scaleY(1);
         }
         89% {
             opacity: 1;
-            d: path("M 43.947022,32.638885 L 40.277775,32.638885 L 36.608528,32.638885 L 40.277775,32.638885 L 43.947022,32.638885 Z");
+            transform: scaleY(0.1);
         }
         91% {
             opacity: 1;
-            d: path("M 43.947022,32.638885 L 40.277775,32.638885 L 36.608528,32.638885 L 40.277775,32.638885 L 43.947022,32.638885 Z");
+            transform: scaleY(0.1);
         }
-        94% {
+        92% {
             opacity: 1;
-            d: path("M 43.947022,32.638885 A 3.6692474,3.6692474 0 0 1 40.277775,36.308132 3.6692474,3.6692474 0 0 1 36.608528,32.638885 3.6692474,3.6692474 0 0 1 40.277775,28.969638 3.6692474,3.6692474 0 0 1 43.947022,32.638885 Z");
+            transform: scaleY(1);
+        }
+        93% { 
+            opacity: 0; 
+            transform: scaleY(0.1);
         }
         100% { opacity: 0; }
     }
@@ -196,18 +204,24 @@
         animation: blink 6s infinite;
         opacity: 0;
         -webkit-transform: translateZ(0);
+        transform: translateZ(0);
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
-        will-change: opacity, d;
+        will-change: opacity, transform;
+        transform-origin: center;
+        -webkit-transform-origin: center;
     }
 
     #right-eyelid {
         animation: blinkRight 6s infinite;
         opacity: 0;
         -webkit-transform: translateZ(0);
+        transform: translateZ(0);
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
-        will-change: opacity, d;
+        will-change: opacity, transform;
+        transform-origin: center;
+        -webkit-transform-origin: center;
     }
 </style>
 
