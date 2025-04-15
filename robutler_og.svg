@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="robutler_logo_mark.svg"
+   sodipodi:docname="robutler_og.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      inkscape:zoom="0.59150256"
      inkscape:cx="754.01195"
-     inkscape:cy="325.44238"
+     inkscape:cy="327.13299"
      inkscape:window-width="1849"
      inkscape:window-height="1177"
      inkscape:window-x="3832"
@@ -38,6 +38,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#ffffff;stroke-width:1;stroke-linejoin:round;stroke:none"
+       id="rect1"
+       width="317.5"
+       height="166.6875"
+       x="0"
+       y="0"
+       ry="2.124706" />
     <g
        id="g6"
        transform="translate(1.1617545,-6.5688946)">
