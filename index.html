@@ -39,7 +39,7 @@
 <body>
 
 <div class="main-content">
-  <svg class="logo-large" width="250" height="250" viewBox="0 0 226.008 207.307">
+  <svg width="200" height="200" viewBox="0 0 226.008 207.307" style="width: 200px !important; height: 200px !important; min-width: 200px !important; min-height: 200px !important;">
     <defs>
       <style>.cls-1{fill:#000;}.cls-1,.cls-2,.cls-3{stroke-width:0px;}.cls-2{fill:#f0ed00;}.cls-3{fill:#fff;}</style>
     </defs>
@@ -56,15 +56,15 @@
       <path class="cls-1" d="M126.84,35.329c7.736,0,15.299,3.187,20.751,8.745,5.355,5.459,8.226,12.589,8.083,20.077-.142,7.435-3.146,14.402-8.457,19.619-5.318,5.223-12.353,8.1-19.808,8.1-.298,0-.54.242-.54.54s.242.54.54.54h26.65c.894,0,1.621.727,1.621,1.621v24.489c0,.894-.727,1.621-1.621,1.621h-26.65c-15.588,0-28.27-12.682-28.27-28.27,0-.298-.242-.54-.54-.54s-.54.242-.54.54v26.65c0,.894-.727,1.621-1.621,1.621h-24.489c-.894,0-1.621-.727-1.621-1.621V36.95c0-.894.727-1.621,1.621-1.621h54.891"/>
       <circle id="left-eye" class="cls-3" cx="98.563" cy="63.73" r="5.372"/>
       <circle id="right-eye" class="cls-3" cx="127.545" cy="63.73" r="5.372"/>
-      
-      <!-- Blinking eyelids -->
-      <path id="left-eyelid" fill="black" d="M 103.935,63.73 A 5.372,5.372 0 0 1 98.563,69.102 5.372,5.372 0 0 1 93.191,63.73 5.372,5.372 0 0 1 98.563,58.358 5.372,5.372 0 0 1 103.935,63.73 Z" />
-      <path id="right-eyelid" fill="black" d="M 132.917,63.73 A 5.372,5.372 0 0 1 127.545,69.102 5.372,5.372 0 0 1 122.173,63.73 5.372,5.372 0 0 1 127.545,58.358 5.372,5.372 0 0 1 132.917,63.73 Z" />
+        
+        <!-- Blinking eyelids -->
+      <path id="left-eyelid" fill="black" d="M 105.0094,63.73 A 6.4464,6.4464 0 0 1 98.563,70.1764 6.4464,6.4464 0 0 1 92.1166,63.73 6.4464,6.4464 0 0 1 98.563,57.2836 6.4464,6.4464 0 0 1 105.0094,63.73 Z" />
+      <path id="right-eyelid" fill="black" d="M 133.9914,63.73 A 6.4464,6.4464 0 0 1 127.545,70.1764 6.4464,6.4464 0 0 1 121.0986,63.73 6.4464,6.4464 0 0 1 127.545,57.2836 6.4464,6.4464 0 0 1 133.9914,63.73 Z" />
     </g>
   </svg>
 
   <!-- <h2>Robutler</h2> -->
-  <h1>at your service soon</h1>
+  <h1>AT YOUR SERVICE SOON</h1>
 
   <div class="app-stores">
     <a href="#" class="app-store-link">
@@ -159,15 +159,16 @@
     }
 
     h1 {
-      font-size: 1.8em;
       font-weight: normal;
-      text-transform: lowercase;
-      margin-top: 15px;
+      text-transform: uppercase;
+      margin-top: 20px;
       margin-bottom: 20px;
       animation: fadeInUp 0.8s ease-out 0.4s forwards;
       opacity: 0;
-      color: #495057;
+      color: #000000;
       letter-spacing: -0.01em;
+      font-size: 1.1em;
+      font-weight: 600;
     }
 
     h2 {
@@ -213,6 +214,7 @@
       align-items: center;
       padding: 20px;
       overflow: hidden;
+      margin-bottom: 60px;
     }
 
     svg {
@@ -221,11 +223,6 @@
       animation: fadeInUp 0.8s ease-out forwards;
       opacity: 0;
       filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
-    }
-    
-    .logo-large {
-      width: 250px;
-      height: 250px;
     }
 
     @keyframes fadeInUp {
@@ -364,13 +361,7 @@
             height: 120px;
         }
         
-        .logo-large {
-            width: 250px;
-            height: 250px;
-        }
-        
         h1 {
-            font-size: 2em;
         }
         
         h2 {
@@ -388,13 +379,7 @@
             height: 90px;
         }
         
-        .logo-large {
-            width: 250px;
-            height: 250px;
-        }
-        
         h1 {
-            font-size: 1.5em;
             margin-top: 10px;
             margin-bottom: 15px;
         }
